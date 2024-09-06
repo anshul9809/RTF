@@ -1,0 +1,33 @@
+/* src/styles/Editor.css */
+.editor-container {
+    margin: 20px;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #toolbar {
+    margin-bottom: 10px;
+  }
+  .editor{
+    width: 90%;
+    height: 80%;
+  }
+  
+  .save-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
