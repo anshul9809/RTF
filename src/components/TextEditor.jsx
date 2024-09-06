@@ -33,7 +33,7 @@ function TextEditor() {
         onChange={setEditorContent}
         modules={modules}
         formats={formats}
-        placeholder="Write something amazing..."
+        placeholder="Write something here..."
       />
       <button className="save-btn" onClick={handleSaveAsPDF}>
         Save and Download PDF
